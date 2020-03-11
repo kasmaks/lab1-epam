@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="task1.css">
+    <script src="task1.js" defer></script>
+    <title>task1</title>
+</head>
+
+<body>
+    <header>
+            <h1>
+                Header
+            </h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Gome</a>
+            </li>
+            <li>
+                <a href="#">Come</a>
+            </li>
+            <li>
+                <a href="#">Mome</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="row">
+        <aside>
+            <h2>
+                Aside
+            </h2>
+            <article>
+                <h3>The Miracle of Istanbul</h3>
+                <p>
+                    The 2005 UEFA Champions League Final was the final match of the 2004–05 UEFA Champions League, Europe's primary club football competition. 
+                    The showpiece event was contested between Liverpool of England and Milan of Italy at the Atatürk Stadium in Istanbul, Turkey on <time datatime="2005-05-25">25 May 2005</time>. 
+                    Liverpool, who had won the competition four times, were appearing in their sixth final, and their first since 1985. 
+                    Milan, who had won the competition six times, were appearing in their second final in three years and tenth overall. 
+                    Milan were regarded as favourites before the match and took the lead within the first minute through captain Paolo Maldini. 
+                    Milan striker Hernán Crespo added two more goals before half-time to make it 3–0.
+                    In the second half Liverpool launched a comeback and scored three goals in a dramatic six-minute spell to level the scores at 3–3, with goals from Steven Gerrard, Vladimír Šmicer and Xabi Alonso. 
+                    The scores remained the same during extra time, and a penalty shoot-out was required to decide the champions. 
+                    The score was 3–2 to Liverpool when Andriy Shevchenko's penalty was saved by Liverpool goalkeeper Jerzy Dudek. 
+                    Thus Liverpool won their fifth European Cup, were awarded the trophy permanently, and claimed a multiple-winner badge. 
+                    Liverpool's comeback gave rise to the final being known as the Miracle of Istanbul, and is regarded as one of the greatest finals in the history of the tournament.
+                </p>
+                <p>
+                    The fans were singing the club's anthem <mark>“You'll Never Walk Alone”</mark>. 
+                    Legend has it that the motivating effect of the fans singing <mark>“You'll Never Walk Alone”</mark> gave the players hope when all seemed lost. 
+                    This small act of defiance in the face of adversity galvanised the Liverpool team, 
+                    and they managed to pull back and win the match on penalties, crowning them European Cup Champions. 
+                </p>
+                <details class="song_name">
+                    <summary>'ll Never Walk Alone</summary>
+                    <p>
+                        When you walk through a storm<br>
+                        Hold your head up high<br>
+                        And don't be afraid of the dark<br>
+                        At the end of a storm<br>
+                        There's a golden sky<br>
+                        And the sweet silver song of a lark<br>
+                        Walk on through the wind<br>
+                        Walk on through the rain<br>
+                        Though your dreams be tossed and blown<br>
+                        Walk on, walk on<br>
+                        With hope in your heart<br>
+                        And you'll never walk alone<br>
+                        You'll never walk alone<br>
+                        Walk on, walk on<br>
+                        With hope in your heart<br>
+                        And you'll never walk alone<br>
+                        You'll never walk alone<br>
+                    </p>
+                </details>
+                <audio controls>
+                    <source src="./Video and Audio/You'll Never Walk Alone.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio> 
+            </article>
+            <progress max="100" value="2">Progress</progress>
+            <p><output id="progressOutput">0</output> %</p>
+            <p><meter value="35" max="100" low="20" high="70"></p>
+            <button id="openDialog">Open</button>
+            <dialog id="dialog">
+                <p>
+                    Dialog
+                </p>
+                <button id="closeDialog">Close</button>
+            </dialog>
+                
+        </aside>
+        
+        <main>
+            <h2>
+            Hello World and <bdi>هيلو دنيا</bdi>
+            </h2>
+            <section class="video">
+                <video controls="controls">
+                    <source src="./Video and Audio/Liverpool-Milan.mp4" type='video/mp4'>     
+                    <track default kind="subtitles" srclang="en" label="English" src="/Files/task1subt.vtt"/>             
+                </video>
+            </section>
+                <h2>
+                    Liverpool made another Miracle
+                </h2>
+                <figure>
+                    <img src="./Files/1.png" alt="sdasdas" width="60%">
+                    <figcaption>
+                        Aasdsa
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./Files/2.jpg" alt="sdasdas" width="60%">
+                    <figcaption>
+                        asdsa
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./Files/3.jpg" alt="sdasdas" width="60%">
+                    <figcaption>
+                        asdsa
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./Files/4.jpg" alt="sdasdas" width="60%">
+                    <figcaption>
+                        asdsa
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./Files/5.jpeg" alt="sdasdas" width="60%">
+                    <figcaption>
+                        asdsa
+                    </figcaption>
+                </figure> 
+        </main>
+        <aside>
+            <h2>
+                Second aside
+            </h2>
+            Canvas
+            <canvas id="canvas"> 
+            </canvas>
+            Video created with tag embed
+            <embed src="./Video and Audio/Liverpool-Milan.mp4" type='video/mp4'><br>
+            <button id="addImageButton">Add image </button>
+            <template id="imageTemplate">
+                <h2>Kevin</h2>
+                <img src="./Files/kevin1.jpg" width="200" height="150">
+            </template>
+            <div class="images">
+
+            </div> 
+        </aside>
+    </div>
+    <footer>
+        <h2>
+            @ Copyright
+            All rights reserved
+        </h2>
+    </footer>
+</body>
+
+</html>
